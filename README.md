@@ -5,7 +5,7 @@ some mark:
 - ?: I don't know what to do with it
 ## Task1
 Data Cleaning: replace missing value using MICE imputer
-Model: Random Forest
+Model: CatBoost
 Done: 
 - Add Grid Search
 - Select most optimize imputer(??)
@@ -29,7 +29,7 @@ To-do:
 
 ## Task3
 Data Cleaning: MICE for numerical and mode for categorical
-Model: XGBoost 
+Model: CatBoost and XGBoost 
 Done:
 - zero-inflated model: now the model can predict zero
 - refine cleaning process
