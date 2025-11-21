@@ -13,23 +13,23 @@ Done:
 To-do: 
 - [ ]feature selection
 - [ x ]in-dept cleaning
-- [ ? ]Deal with imbalance data?
-- [ / ]hyperparameter and fine-tuning
+- [ x ]Deal with imbalance data?
+- [ x ]hyperparameter and fine-tuning
 - [ x ]select the model
 
 ## Task2
 Data Cleaning: replace missing number using MICE imputer and category using ffill/bfill and mean to filled null value
-Model: XGBoost
+Model: CatBoost
 
 To-do:
 - [ ]class imbalance 
 - [ ]feature selection
-- [ ]refine model
-- [ ]format the text/notebook
+- [ x ]refine model
+- [ x ]format the text/notebook
 
 ## Task3
 Data Cleaning: MICE for numerical and mode for categorical
-Model: CatBoost and XGBoost 
+Model: Randomforest and XGBoost 
 Done:
 - zero-inflated model: now the model can predict zero
 - refine cleaning process
@@ -42,7 +42,7 @@ To-do:
 
 ## Task4
 Data Cleaning: is there need to?
-Model: CNN
+Model: VGG?
 
 To-do:
 - []fine-tune the parameter/try train it on more powerful cpu
@@ -52,8 +52,8 @@ To-do:
 
 ## Task5
 Data Cleaning: also using MICE
-Model: One Class SVM
+Model: Isolation Forest
 
 To-do:
-- []Try using ensemble or other model
+- [ x ]Try using ensemble or other model
 - []clean data
